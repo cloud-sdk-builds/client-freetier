@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-freetier`](https://www.npmjs.com/package/@aws-sdk/client-freetier/v/3.1020.0).
+[`@aws-sdk/client-freetier`](https://www.npmjs.com/package/@aws-sdk/client-freetier/v/3.1021.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-freetier@3.1020.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-freetier@3.1021.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-rx28eoU5gO8gaVurb260bRyFswh4waIno6jdY2WrY4ZqDtIAoMtBjQkUv+ozYU20
+sha384-5v2yruK6n6QBxt3QUHaTWtgjplJK7r9D51AeB1UuQiyVlWrJm6+3c3ywgXrq5ugc
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-freetier": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-freetier@3.1020.0/index.min.mjs"
+            "@aws-sdk/client-freetier": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-freetier@3.1021.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-freetier@3.1020.0/index.min.mjs": "sha384-rx28eoU5gO8gaVurb260bRyFswh4waIno6jdY2WrY4ZqDtIAoMtBjQkUv+ozYU20"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-freetier@3.1021.0/index.min.mjs": "sha384-5v2yruK6n6QBxt3QUHaTWtgjplJK7r9D51AeB1UuQiyVlWrJm6+3c3ywgXrq5ugc"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-freetier": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-freetier@3.1020.0/index.min.mjs"
+                        "@aws-sdk/client-freetier": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-freetier@3.1021.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-freetier@3.1020.0/index.min.mjs": "sha384-rx28eoU5gO8gaVurb260bRyFswh4waIno6jdY2WrY4ZqDtIAoMtBjQkUv+ozYU20"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-freetier@3.1021.0/index.min.mjs": "sha384-5v2yruK6n6QBxt3QUHaTWtgjplJK7r9D51AeB1UuQiyVlWrJm6+3c3ywgXrq5ugc"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1020.0`)
+* Always pin to a specific version (`@3.1021.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-freetier/blob/refs/tags/3.1020.0/LICENSE
+https://github.com/cloud-sdk-builds/client-freetier/blob/refs/tags/3.1021.0/LICENSE
 ```
 
 ---
